@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "question": "Il server di produzione è irraggiungibile. Cosa fai?",
+    "answers": [
+      { "text": "Scrivo 'AIUTO!' in maiuscolo sul canale generale.", "isCorrect": false },
+      { "text": "Controllo i monitor di sistema, verifico se ci sono deploy recenti e raccolgo i log degli errori prima di segnalare il problema con dati precisi.", "isCorrect": true },
+      { "text": "Chiedo al collega più vicino se anche a lui non funziona.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Hai bisogno di un'informazione che è chiaramente documentata sulla wiki aziendale. Che fai?",
+    "answers": [
+      { "text": "Chiedo direttamente a un senior, così faccio prima.", "isCorrect": false },
+      { "text": "Consulto la wiki. Se l'informazione non è chiara o è mancante, la chiedo e poi aggiorno la documentazione per tutti.", "isCorrect": true },
+      { "text": "Mi lamento del fatto che non si trova mai niente.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Ti viene assegnato un task che non sai come iniziare. Qual è il tuo primo passo?",
+    "answers": [
+      { "text": "Aspetto che qualcuno mi dica cosa fare.", "isCorrect": false },
+      { "text": "Provo a scomporre il problema, faccio una ricerca preliminare e formulo domande specifiche se incontro ostacoli documentando cosa ho già provato.", "isCorrect": true },
+      { "text": "Scrivo 'Qualcuno mi può spiegare come si fa il task XYZ?'.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Un cliente segnala un 'bug strano' senza dare dettagli. Come procedi?",
+    "answers": [
+      { "text": "Inizio a modificare codice a caso sperando di risolvere.", "isCorrect": false },
+      { "text": "Chiedo al cliente i passaggi esatti per replicare il problema, screenshot, versione del browser e sistema operativo.", "isCorrect": true },
+      { "text": "Dico al cliente che senza dettagli non posso fare nulla e chiudo il ticket.", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Hai una riunione tra 5 minuti. È il momento giusto per chiedere di revisionare una PR di 1500 linee?",
+    "answers": [
+      { "text": "Sì, l'importante è che la guardi subito.", "isCorrect": false },
+      { "text": "Assolutamente no. Rispetto il tempo altrui e pianifico richieste complesse con anticipo, non quando l'altra persona sta per staccare o entrare in un meeting.", "isCorrect": true },
+      { "text": "Gli mando il link e scrivo 'quando hai 5 minuti'.", "isCorrect": false }
+    ]
+  }
+] 
